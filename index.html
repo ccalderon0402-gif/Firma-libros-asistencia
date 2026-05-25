@@ -508,19 +508,37 @@ document.addEventListener('DOMContentLoaded', async () => {
   document.title = `BERLIAM · ${MTTO_NAME} · Firma Libro`;
   spawnParticles();
 
-  // Intentar cargar JSON
-  try {
-    const res = await fetch(JSON_URL + '?v=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    WORKERS = await res.json();
-    if (!Array.isArray(WORKERS)) throw new Error('Formato inválido');
+  // Cargar JSON — cache: no-cache para que siempre lea el JSON actualizado
+  const fetchUrl = JSON_URL + '?_=' + Date.now();
+  console.log('[BERLIAM] Cargando nómina desde:', fetchUrl);
 
-    // Sistema listo
-    document.getElementById('hero-section').style.display = 'block';
+  try {
+    const res = await fetch(fetchUrl, { cache: 'no-cache' });
+    if (!res.ok) throw new Error('HTTP ' + res.status + ' — ' + res.statusText);
+
+    const raw = await res.text();
+    WORKERS   = JSON.parse(raw);
+
+    if (!Array.isArray(WORKERS) || WORKERS.length === 0) {
+      throw new Error('trabajadores.json vacío o con formato incorrecto');
+    }
+
+    console.log('[BERLIAM] Nómina cargada:', WORKERS.length, 'trabajadores');
+
+    // Pre-normalizar RUT de cada trabajador para búsqueda rápida y robusta
+    WORKERS = WORKERS.map(w => ({ ...w, _rutNorm: normalizeRut(w.rut || '') }));
+
+    // Mostrar sección de búsqueda
+    document.getElementById('hero-section').style.display  = 'block';
     document.getElementById('search-section').style.display = 'block';
     initSearch();
+
   } catch(e) {
-    document.getElementById('sys-error').classList.add('visible');
+    console.error('[BERLIAM] Error al cargar trabajadores.json:', e.message);
+    const errEl  = document.getElementById('sys-error');
+    const codeEl = errEl.querySelector('.se-code');
+    if (codeEl) codeEl.textContent = e.message;
+    errEl.classList.add('visible');
   }
 
   // Ocultar loader
@@ -579,8 +597,12 @@ function doSearch() {
   }
 
   inp.className = 'st-valid';
+  // Normalizar el RUT ingresado (elimina puntos, guiones, espacios)
+  // y comparar contra el campo pre-normalizado _rutNorm del JSON
   const norm   = normalizeRut(rut);
-  const worker = workers.find(w => normalizeRut(w.rut) === normalizeRut(rut));
+  console.log('[BERLIAM] Buscando RUT normalizado:', norm);
+  const worker = WORKERS.find(w => w._rutNorm === norm);
+  console.log('[BERLIAM] Resultado:', worker ? worker.nombre : 'no encontrado');
   worker ? showWorker(worker) : showNotFound(rut);
 }
 
@@ -723,29 +745,52 @@ function showWorker(w) {
 }
 
 /* ─────────────────────────────────────────
-   RUT utilities
+   RUT utilities — lógica corregida
+   normalizeRut() elimina TODOS los separadores
+   y devuelve solo dígitos+DV sin guión ni puntos.
+
+   Ejemplos de equivalencia:
+     "12.345.678-9"  →  "123456789"
+     "12345678-9"    →  "123456789"
+     "123456789"     →  "123456789"
+     "15.678.901-K"  →  "15678901K"
+     "15678901k"     →  "15678901K"
 ───────────────────────────────────────── */
+
+/** Elimina puntos, guiones, espacios y cualquier separador.
+ *  Devuelve dígitos + DV en mayúsculas, sin separadores. */
+function normalizeRut(r) {
+  if (!r) return '';
+  return String(r).replace(/[^0-9kK]/gi, '').toUpperCase();
+}
+
+/** Formatea para presentación visual: 12.345.678-9 */
 function formatRut(v) {
-  v = v.replace(/[^0-9kK]/g,'').toUpperCase();
+  v = v.replace(/[^0-9kK]/gi, '').toUpperCase();
   if (!v) return '';
+  if (v.length === 1) return v;
   const dv  = v.slice(-1);
-  let   num = v.slice(0,-1);
+  let   num = v.slice(0, -1);
   let   fmt = '';
-  while (num.length > 3) { fmt = '.' + num.slice(-3) + fmt; num = num.slice(0,-3); }
+  while (num.length > 3) { fmt = '.' + num.slice(-3) + fmt; num = num.slice(0, -3); }
   return num + fmt + '-' + dv;
 }
-function normalizeRut(r) { return r.replace(/[.\s]/g,'').toUpperCase(); }
+
+/** Valida dígito verificador chileno. Acepta cualquier formato. */
 function validateRut(rut) {
   const clean = normalizeRut(rut);
-  const parts = clean.split('-');
-  if (parts.length !== 2) return false;
-  const num = parseInt(parts[0], 10);
-  const dv  = parts[1];
-  if (isNaN(num)) return false;
-  let s=0, m=2, ns=String(num);
-  for (let i=ns.length-1;i>=0;i--){s+=parseInt(ns[i])*m;m=m===7?2:m+1;}
-  const c=11-(s%11);
-  return dv===(c===11?'0':c===10?'K':String(c));
+  if (clean.length < 2) return false;
+  const dv  = clean.slice(-1);
+  const num = parseInt(clean.slice(0, -1), 10);
+  if (isNaN(num) || num <= 0) return false;
+  let s = 0, m = 2, ns = String(num);
+  for (let i = ns.length - 1; i >= 0; i--) {
+    s += parseInt(ns[i]) * m;
+    m = m === 7 ? 2 : m + 1;
+  }
+  const c = 11 - (s % 11);
+  const expected = c === 11 ? '0' : c === 10 ? 'K' : String(c);
+  return dv === expected;
 }
 </script>
 </body>
