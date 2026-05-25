@@ -1,27 +1,887 @@
 [
   {
-    "nombre": "JUAN CARLOS PÉREZ SILVA",
-    "rut": "12.345.678-9",
+    "nombre": "ALARCON VERA JOSE BONNY",
+    "rut": "22.992.867-8",
     "turno": "DÍA"
   },
   {
-    "nombre": "RODRIGO ANDRÉS MORA FUENTES",
-    "rut": "15.678.901-K",
+    "nombre": "ALVAREZ GUERRA YAMIL SALOMON",
+    "rut": "15.871.298-9",
     "turno": "NOCHE"
   },
   {
-    "nombre": "CARLOS HERNÁNDEZ VEGA",
-    "rut": "11.222.333-4",
+    "nombre": "ARANGUIZ LOPEZ JESUS EDUARDO",
+    "rut": "20.118.122-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "BASTIAS CANDIA AQUILES DEL CARMEN",
+    "rut": "17.695.769-7",
     "turno": "DÍA"
   },
   {
-    "nombre": "MIGUEL ÁNGEL CASTRO ROJAS",
-    "rut": "16.789.012-3",
+    "nombre": "BUSTAMANTE JORQUERA ARNALDO ANDRES",
+    "rut": "15.062.963-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CABRALES RIVAS ALVARO PATRICIO",
+    "rut": "13.136.384-2",
     "turno": "NOCHE"
   },
   {
-    "nombre": "PABLO IGNACIO SOTO DÍAZ",
-    "rut": "13.456.789-0",
+    "nombre": "CASTELLANO JARA CHRISTIAN ANDRES",
+    "rut": "14.414.488-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CESPEDES CASTILLO GONZALO DANTE",
+    "rut": "18.580.909-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CHAVEZ RAMIREZ EDGAR ALONSO",
+    "rut": "18.561.775-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CONTRERAS COLLAO NIBALDO EMILIO",
+    "rut": "8.994.264-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CONTRERAS SALINAS MANUEL ALEJANDRO",
+    "rut": "15.593.883-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CORTES CORTES CLAUDIO GONZALO",
+    "rut": "16.162.239-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CORTES VALENZUELA RICARDO EXEQUIEL",
+    "rut": "18.971.165-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CUEVAS CASTILLO FELIPE ELIAS",
+    "rut": "18.260.356-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "DE LA TORRE DE LA TORRE BASTIAN LUIS HERNAN",
+    "rut": "18.580.751-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "DIAZ RODRIGUEZ BEDFORD ANDRES",
+    "rut": "10.041.659-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ELGUETA CORTES BASTIAN ANTONIO",
+    "rut": "18.971.404-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ESCOBAR GONZALEZ CLAUDIO ESTEBAN",
+    "rut": "17.537.870-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ESPARZA PALACIOS HECTOR LEONARDO",
+    "rut": "20.363.595-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "GALINDO AHUMADA CAMILO GIOVANNI",
+    "rut": "13.988.875-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "GALLARDO BUGUEÑO SEBASTIAN IGNACIO",
+    "rut": "22.296.474-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "GONZALEZ AGUILERA IVAN ANDRES",
+    "rut": "21.205.303-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "GUZMAN LOZANO SERGIO EDUARDO",
+    "rut": "13.958.708-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "HENRIQUEZ RAMIREZ JOSE ARTEMIO",
+    "rut": "12.397.953-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "HUAIQUILAO IRARRAZABAL FABIAN ABSALON",
+    "rut": "18.843.105-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "HUERTA OLIVARES MIGUEL ANGEL",
+    "rut": "15.977.611-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "INOSTROZA GUTIERREZ JORGE ANTONIO",
+    "rut": "10.879.251-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "JEREZ FUENTEALBA PERCY GABRIEL",
+    "rut": "13.936.124-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "LETELIER PAREDES JOSE GUILLERMO",
+    "rut": "10.368.830-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "LOPEZ PALACIO IGNACIO ALEJANDRO",
+    "rut": "19.351.632-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MANQUEZ MANQUEZ GABRIEL NICOLAS",
+    "rut": "19.296.347-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MASCAREÑO LEIGHTON HECTOR RENE",
+    "rut": "16.888.326-9",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MEJIAS CAROCA JORGE IGNACIO",
+    "rut": "19.648.074-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MENDEZ DELGADO DAVID LEONARDO",
+    "rut": "21.370.008-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MILLA HURTADO ITALO ALEJANDRO",
+    "rut": "13.173.837-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MUÑOZ MACHUCA EMANUEL ALEJANDRO",
+    "rut": "18.236.261-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MUÑOZ PIZARRO IVAN ANDRES",
+    "rut": "12.609.087-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "NUÑEZ CARCAMO LUIS ALBERTO",
+    "rut": "9.052.236-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "NUÑEZ CASTAÑEDA LEONARDO IGNACIO",
+    "rut": "22.378.644-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "OLIVARES CASTILLO DORINDA ALEJANDRA",
+    "rut": "21.302.764-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "PEREZ GONZALEZ ALEXY ALBERTO",
+    "rut": "26.411.297-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PEREZ VARGAS RICARDO DEL CARMEN",
+    "rut": "11.731.997-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "POBLETE ZARATE FELIPE GUILLERMO",
+    "rut": "19.041.738-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "RIVERA CHIRINO RAUL",
+    "rut": "15.050.932-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROJAS GALLARDO RONNY SALVADOR",
+    "rut": "20.741.610-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROJAS RAMIREZ CARLOS ERNESTO",
+    "rut": "19.351.520-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROJAS RUBILAR FREDDY WILLIAMS",
+    "rut": "13.269.101-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SALAZAR ESPINOZA RUBEN JABIN",
+    "rut": "19.619.234-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SALINAS PEREZ FRANCISCO EDUARDO",
+    "rut": "12.226.649-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SANHUEZA MUÑOZ JUAN PABLO",
+    "rut": "15.170.686-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SUAREZ GAHONA WALDO JOHAN",
+    "rut": "17.965.989-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SUAREZ JAMETH GERSON JOHN",
+    "rut": "15.977.785-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "TAPIA CABRERA ALBERTO LUIS",
+    "rut": "12.582.979-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "YANCA MIRANDA VICTOR MANUEL",
+    "rut": "11.732.255-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ACEVEDO MUÑOZ SOFIA ANGELINA",
+    "rut": "21.064.972-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "AGUIRRE RADAELLI ENZA RAFAELA",
+    "rut": "25.661.474-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "AGUIRRE SANTI JOEL ANDRES",
+    "rut": "15.634.835-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ALACHE RANGEL JUAN ANDRES",
+    "rut": "18.006.618-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ALLENDES MARAMBIO MARIANO SEBASTIAN",
+    "rut": "17.143.640-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ARAYA BRICEÑO YECENIA DIAMINA",
+    "rut": "18.260.430-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ARAYA CARVAJAL MARCELO ARIEL",
+    "rut": "15.048.249-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ARAYA CORTES MATEO LUIS IGNACIO",
+    "rut": "22.160.030-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ARIZ PINO MANUEL JESUS",
+    "rut": "9.045.051-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ASTUDILLO SOTO ALEJANDRA DE LAS MERCEDES",
+    "rut": "13.432.064-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BAEZA OSSES JOSE MAURICIO",
+    "rut": "20.111.744-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "BAHAMONDES GALEA RICARDO ALBERTO",
+    "rut": "16.288.557-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BELMAR CARDENAS JULIO",
+    "rut": "8.746.309-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BUGUEÑO BUGUEÑO AIDA KATHERINE",
+    "rut": "20.309.290-3",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BUSTOS SANDOVAL SEBASTIAN IGNACIO",
+    "rut": "21.378.427-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CABRERA TAPIA SEBASTIAN EDUARDO",
+    "rut": "21.049.450-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CANDIA SALDAÑA MARIA ANTONIETA",
+    "rut": "19.823.152-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CARO FLORES YERSON DAVID",
+    "rut": "19.486.921-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CARRILLO LEPUMAN VICENTE FERNANDO",
+    "rut": "21.890.763-6",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CHIRINO ARAYA LUIS ALBERTO",
+    "rut": "9.533.783-K",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "DEL VALLE SOTO MAURICIO IVAN",
+    "rut": "14.029.904-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "DIAZ CARVAJAL JOSEFA ALEJANDRA",
+    "rut": "20.501.829-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ESPINOZA RIVERA CARLOS ROBERTO",
+    "rut": "11.941.448-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "OLATE SIERRA JAVIER IGNACIO",
+    "rut": "20.362.253-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "OLAVE HERMOSILLA SEBASTIAN ANDRES",
+    "rut": "20.619.728-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "OLIVARES NUÑEZ MATIAS ISAAC",
+    "rut": "21.048.349-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "OLIVARES PIZARRO MAURICIO ARNOLDO",
+    "rut": "10.114.564-6",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "OSES OLIVARES LUIS FLORENTINO",
+    "rut": "15.742.937-K",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "PASTEN ROLHAISER HECTOR LEONEL",
+    "rut": "20.717.899-3",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PASTEN ROLHAISER OSCAR SAMUEL",
+    "rut": "19.468.440-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PINILLA VALDIVIA HENOCH JARED",
+    "rut": "13.987.611-3",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PINO MORALES CRISTOPHER ANDRES",
+    "rut": "21.380.272-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "RAMIREZ RAMIREZ CRISTOBAL HERNAN",
+    "rut": "21.874.708-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ROBLES ROJAS MARICEL ALEJANDRA",
+    "rut": "20.091.976-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROJAS LARGO ANGELO ANDRES",
+    "rut": "21.327.215-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SAEZ CHANDIA ROSAMEL BENEDICTO",
+    "rut": "15.170.286-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SAEZ ROMERO MIGUEL",
+    "rut": "12.762.829-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SALINAS TAPIA FELIPE DEL TRANSITO",
+    "rut": "13.360.898-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "SALINAS VERDEJO JUAN JOSE",
+    "rut": "12.951.525-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SANDOVAL HERRERA VICENTE ALEXANDER",
+    "rut": "22.393.273-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SIBILA MEZA CESAR NICOLAS",
+    "rut": "19.347.551-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SOTO SAEZ IGNACIO ANDRES",
+    "rut": "21.341.688-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ULLOA TRONCOSO SOLANGE ELIZABETH",
+    "rut": "14.207.303-K",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "URBINA LEON DANTE FELIPE",
+    "rut": "21.276.653-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "URBIZAGASTEGUI FLORES ALEX",
+    "rut": "25.663.353-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "VERA FUENTES CRISTIAN ALVARO",
+    "rut": "16.756.225-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ZAPATA BASTIAS RIGOBERTO",
+    "rut": "10.367.578-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ZUÑIGA HERNANDEZ DAVID ELISEO",
+    "rut": "19.478.250-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ANDRADE RIQUELME JUAN CARLOS",
+    "rut": "12.547.709-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ANDRADE URREJOLA IVO ALEJANDRO",
+    "rut": "19.823.334-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CONTRERAS BELMAR JONATHAN MARCELO",
+    "rut": "18.216.888-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CONTRERAS CONTRERAS EDUARDO HUMBERTO",
+    "rut": "15.699.642-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MALDONADO CONSTANZO RONALD MOISES",
+    "rut": "20.112.517-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "SEPULVEDA MUÑOZ LEANDRO NICOLAS",
+    "rut": "21.334.677-6",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ZUÑIGA BRICEÑO BRANDON ANDRES",
+    "rut": "20.370.561-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MANTEROLA ROJAS PATRICIO FERNANDO",
+    "rut": "13.424.157-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "AGUILERA MONTENEGRO ARIEL ALEXANDER",
+    "rut": "19.833.322-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "QUIROZ ESTAY ESTEBAN MATIAS",
+    "rut": "16.890.963-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MORALES TORRES KEVIN ANDRES",
+    "rut": "19.313.089-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "FUENTEALBA BELTRAN JOSE MIGUEL",
+    "rut": "18.746.206-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ALVAREZ VERGARA ALVARO ENRIQUE",
+    "rut": "15.779.038-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "GUERRERO ROJAS MARCELO IGNACIO",
+    "rut": "19.980.578-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ACUÑA ACUÑA FRANCISCO JAVIER",
+    "rut": "19.486.552-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ESCOBAR ESCOBAR RAUL EUGENIO",
+    "rut": "17.424.213-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "VARGAS MONSALVE JOSE ENMANUEL",
+    "rut": "25.576.472-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "VERA AMPUERO OSCAR ALBERTO",
+    "rut": "12.821.890-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BRIONES VERGARA JAIME MARIO",
+    "rut": "7.827.425-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "LEIVA CARMONA BRAYAN ANDRES",
+    "rut": "15.561.063-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "BARRIOS RAMIREZ VICTOR DOMINGO",
+    "rut": "7.995.808-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "GAETE ARAYA DANILO ANDRES",
+    "rut": "17.477.931-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "VALLEJOS AREVALO IVAN IGNACIO",
+    "rut": "19.338.747-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "LEIVA OYARCE DIHEGO ALONSO",
+    "rut": "21.460.770-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "BARRERA PANES PATRICIO ENRIQUE",
+    "rut": "17.061.466-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "RAMIREZ CATALDO JONATHAN RODRIGO",
+    "rut": "18.380.756-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ALARCON SALAS JUAN PAULO",
+    "rut": "15.727.541-0",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ROJAS CONTRERAS JUAN MANUEL",
+    "rut": "18.102.317-1",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "LOPEZ PEREIRA MARIA JOSE",
+    "rut": "15.828.769-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "PIZARRO TORRES MARCELA KARIN",
+    "rut": "14.141.040-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PASTEN ROLHAISER FEDERICO SEBASTIAN",
+    "rut": "21.161.491-9",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ARDILES SOLAR VICENTE TOMAS",
+    "rut": "21.851.138-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CUEVAS MANQUE HENRY JORGE",
+    "rut": "21.647.701-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "GONZALEZ MADRIAGA RENE IGNACIO",
+    "rut": "20.540.225-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MORAGA VILLALOBOS PABLO ANDRES",
+    "rut": "18.826.537-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "TAPIA MOLINA FERNANDO ALEXIS",
+    "rut": "21.912.687-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ALVAREZ VERGARA CRISTIAN PATRICIO",
+    "rut": "16.342.290-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "OLATE SAAVEDRA MATIAS NICOLAS",
+    "rut": "19.534.310-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CUELLO RIVERA PEDRO SEGUNDO IGNACIO",
+    "rut": "21.079.334-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "FUENTES GONZALEZ DIEGO OSVALDO",
+    "rut": "19.148.878-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "VALENCIA RIVADENEIRA BRYAN DAMIAN",
+    "rut": "21.468.751-8",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BRIONES ELIZONDO JOSE MIGUEL",
+    "rut": "16.253.754-7",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CAREAGA BURGOS ELVIS GAMADIEL",
+    "rut": "20.611.930-6",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "CEBALLOS HERMOSILLA MICHAEL ALEJANDRO",
+    "rut": "20.916.350-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MILLA ALFARO LUCIANO ALFREDO",
+    "rut": "17.193.263-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ROJAS RODRIGUEZ NICOLAS GERMAN",
+    "rut": "19.661.059-6",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "VIGUERAS PARRA PABLO ANDRES",
+    "rut": "20.194.231-4",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "MONTES RUIZ LUCAS SEBASTIAN",
+    "rut": "20.018.766-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MONTOYA ARAVENA GONZALO SAUL EXEQUIEL",
+    "rut": "20.815.992-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "DELGADO BOBADILLA ROBINSON CRISTOBAL JESUS",
+    "rut": "20.959.675-K",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CALDERON PLAZA GUILLERMO ELIAS",
+    "rut": "16.313.418-7",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CARVAJAL PAILLACAN ISAIAS ELEAZAR",
+    "rut": "14.530.918-2",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CARVAJAL PEREZ MANUEL IGNACIO",
+    "rut": "18.710.992-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROJAS VILLARROEL CRISTIAN ESTEBAN",
+    "rut": "16.574.498-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CAICKAY POLIT LUIS ALEJANDRO",
+    "rut": "10.163.627-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "URRUTIA GOMEZ RENE ALEJANDRO",
+    "rut": "14.144.997-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "LLANO CARRASCO GENARO RICARDO",
+    "rut": "15.160.272-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MARTINEZ ESPINOZA LUIS ALBERTO",
+    "rut": "16.088.571-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "GONZALEZ QUIROGA KARIM IGNACIO",
+    "rut": "22.306.584-8",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "ZAPATA REYES DIEGO FELIPE",
+    "rut": "19.781.517-5",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "IBACACHE RAMIREZ JOSTIN TOWELL",
+    "rut": "21.045.612-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ORTIZ ACUÑA DANIEL ALONSO",
+    "rut": "19.714.931-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "BERRIOS ASTUDILLO IVAN RODRIGO",
+    "rut": "10.146.942-5",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "RAMIREZ MOREIRA SIMON ANTONIO",
+    "rut": "19.506.880-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "PAREDES MIÑO HECTOR DAVIS",
+    "rut": "16.200.292-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "FLAQUER ROJAS CONSTANZA DEL PILAR",
+    "rut": "19.771.322-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "GOMEZ RAMOS PABLO DAVID",
+    "rut": "13.236.866-K",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MONGES FIERRO CARLOS ISAAC",
+    "rut": "19.108.531-0",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MUÑOZ ROJO NATALIA VALENTINA",
+    "rut": "18.085.736-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ORELLANA PAZ BENJAMIN JOEL",
+    "rut": "21.977.078-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ROMAN SEGOVIA GLEN GERARD",
+    "rut": "18.010.396-1",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "ASTUDILLO MIRANDO STIAN ANDRES",
+    "rut": "21.524.174-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MAINO RIQUELME VAITIARE PATRICIA ALEJANDRA",
+    "rut": "19.786.291-2",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MUÑOZ PALMA CRISTOBAL ENRIQUE",
+    "rut": "14.150.071-6",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "TAPIA CABRERA DESIDEL DE LA CRUZ",
+    "rut": "9.845.651-1",
     "turno": "DÍA"
   }
 ]
