@@ -580,7 +580,7 @@ function doSearch() {
 
   inp.className = 'st-valid';
   const norm   = normalizeRut(rut);
-  const worker = WORKERS.find(w => normalizeRut(w.rut) === norm);
+  const worker = workers.find(w => normalizeRut(w.rut) === normalizeRut(rut));
   worker ? showWorker(worker) : showNotFound(rut);
 }
 
