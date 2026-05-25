@@ -1,0 +1,27 @@
+[
+  {
+    "nombre": "JUAN CARLOS PÉREZ SILVA",
+    "rut": "12.345.678-9",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "RODRIGO ANDRÉS MORA FUENTES",
+    "rut": "15.678.901-K",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "CARLOS HERNÁNDEZ VEGA",
+    "rut": "11.222.333-4",
+    "turno": "DÍA"
+  },
+  {
+    "nombre": "MIGUEL ÁNGEL CASTRO ROJAS",
+    "rut": "16.789.012-3",
+    "turno": "NOCHE"
+  },
+  {
+    "nombre": "PABLO IGNACIO SOTO DÍAZ",
+    "rut": "13.456.789-0",
+    "turno": "DÍA"
+  }
+]
