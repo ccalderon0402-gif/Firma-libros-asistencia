@@ -394,6 +394,11 @@ body::after{
   .btn-search{justify-content:center}
   .hero{padding:1.5rem 0 1rem}
 }
+
+.upload-btn{display:flex;justify-content:center;margin-top:1rem}
+.upload-btn a{display:inline-block;background:linear-gradient(135deg,#22c55e,#16a34a);color:#fff;text-decoration:none;padding:.9rem 1.4rem;border-radius:10px;font-family:var(--fc);font-weight:700;letter-spacing:.08em;text-transform:uppercase;box-shadow:0 4px 18px rgba(34,197,94,.35);transition:.2s}
+.upload-btn a:hover{transform:translateY(-1px);box-shadow:0 6px 24px rgba(34,197,94,.45)}
+
 </style>
 </head>
 <body>
@@ -490,7 +495,7 @@ body::after{
    BERLIAM · index.html
    Configuración
 ═══════════════════════════════════════════ */
-const MTTO_NAME      = "CONTROL ASISTENCIA L2";
+const MTTO_NAME      = "CONTROL ASISTENCIA L1";
 const JSON_URL       = "trabajadores.json";   // relativo al index.html
 const FIRMA_DIA_IMG  = "firma_dia.png";
 const FIRMA_NOCHE_IMG= "firma_noche.png";
@@ -740,6 +745,9 @@ function showWorker(w) {
           Coloca <strong>${imgSrc}</strong> en la misma carpeta que <strong>index.html</strong>.
         </div>
       </div>
+      <div class="upload-btn">
+        <a href="${buildGoogleFormUrl(w)}" target="_blank" rel="noopener">📎 Subir respaldo de firma</a>
+      </div>
     </div>
 
     <!-- AVISO -->
@@ -754,6 +762,14 @@ function showWorker(w) {
   </div>`;
 
   requestAnimationFrame(() => r.classList.add('show'));
+}
+
+
+function buildGoogleFormUrl(w){
+ const base='https://docs.google.com/forms/d/e/1FAIpQLSdylMHAhII5vZei_bItZGAi20QNuIF93hBHGyv9m547INNKyQ/viewform?usp=pp_url';
+ return base+
+ '&entry.804470382='+encodeURIComponent(w.rut||'')+
+ '&entry.1929046797='+encodeURIComponent(w.nombre||'');
 }
 
 /* ─────────────────────────────────────────
